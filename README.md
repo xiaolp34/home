@@ -1,11 +1,11 @@
 简体中文 | [English](./README_EN.md)
 
 <p>
-<strong><h2>無名の主页</h2></strong>
+<strong><h2>星辰の主页</h2></strong>
 简单的小主页，原来的看够了，重新弄了一个
 </p>
 
-![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
+![星辰の主页](/public/images/xiaolp34.png)
 
 >主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)
 
@@ -13,8 +13,8 @@
 
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
-- [無名の主页](https://www.imsyy.top)
-- [無名の主页 - 备用线路](https://home-imsyy.vercel.app/)
+- [星辰の主页](https://xiaolp.ml)
+- [星辰の主页 - 备用线路](https://www.xiaolp.ml)
 
 ### 功能
 
@@ -132,6 +132,11 @@ make clean all
 * [IconPark](https://iconpark.oceanengine.com/official)
 * [xicons](https://xicons.org/)
 * [Aplayer](https://aplayer.js.org/)
+
+
+### 特别感谢[imsyy](https://github.com/imsyy)大佬分享的源码
+
+- [無名の主页](https://www.imsyy.top)
 
 ### API
 

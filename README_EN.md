@@ -1,11 +1,11 @@
 English | [Chinese](./README.md)
 
 <p>
-<strong><h2>無名の主页</h2></strong>
+<strong><h2>星辰の主页</h2></strong>
 Simple little homepage, had enough of the original one and made a new one
 </p>
 
-![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
+![星辰の主页](/public/images/xiaolp34.png)
 
 >The logo font on the home page has been compressed, so if you use a font other than this logo, it will change back to the default font, Here is the [full font](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)  
 
@@ -13,8 +13,8 @@ Simple little homepage, had enough of the original one and made a new one
 
 >Due to CDN caching, you may need `Ctrl` + `F5` to force a browser cache refresh to see the latest results
 
-- [無名の主页](https://www.imsyy.top)
-- [無名の主页 - 备用线路](https://home-imsyy.vercel.app/)
+- [星辰の主页](https://xiaolp.ml)
+- [星辰の主页 - 备用线路](https://www.xiaolp.ml)
 
 ### Functions
 
@@ -115,6 +115,10 @@ make clean all
 * [IconPark](https://iconpark.oceanengine.com/official)
 * [xicons](https://xicons.org/)
 * [Aplayer](https://aplayer.js.org/)
+
+### Special thanks to [imsyy](https://github.com/imsyy) share the source code
+
+- [無名の主页](https://www.imsyy.top)
 
 ### API
 
