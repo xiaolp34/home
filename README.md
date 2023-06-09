@@ -14,7 +14,8 @@
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
 - [星辰の主页](https://xiaolp.ml)
-- [星辰の主页 - 备用线路](https://www.xiaolp.ml)
+- [星辰の主页 - 备用线路1](https://xiaolp34.ml)
+- [星辰の主页 - 备用线路2](https://xiaolp.tk)
 
 ### 功能
 

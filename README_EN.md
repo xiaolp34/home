@@ -14,7 +14,8 @@ Simple little homepage, had enough of the original one and made a new one
 >Due to CDN caching, you may need `Ctrl` + `F5` to force a browser cache refresh to see the latest results
 
 - [星辰の主页](https://xiaolp.ml)
-- [星辰の主页 - 备用线路](https://www.xiaolp.ml)
+- [星辰の主页 - 备用线路1](https://xiaolp34.ml)
+- [星辰の主页 - 备用线路2](https://xiaolp.tk)
 
 ### Functions
 
