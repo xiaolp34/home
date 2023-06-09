@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 80%;
+      /* position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+      margin: 0 auto;
+      margin-top: 60px;
+      padding: 40px;
+      background: linear-gradient(45deg, #00BCD4, #03A9F4);
+      border-radius: 15px;
+      box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 35px;
+      font-weight: 700;
+      text-align: center;
+      color: blue;
+      letter-spacing: 0.2em;
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #e78d0f;
+      margin-left: 20px;
+    }
+
+    .inBox {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      flex-basis: calc(33.33% - 50px);
+      /* 33.33% 是每个盒子的宽度占比，20px 是盒子之间的间距 */
+      /* margin: 10px; */
+      background-color: #aaddab;
+      text-align: center;
+      padding: 50px;
+      box-sizing: border-box;
+      /* 卡片效果样式 */
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="box">
+    <h1>个人项目展示</h1>
+    <h2>点击进入网站页面</h2>
+    <div class="inBox">
+      <p>电商后台管理系统</p>
+      <p>企业门户网站</p>
+      <p>手机端理财平台</p>
+      <p>个人首页</p>
+      <p>音乐网站</p>
+      <p>品优购</p>
+    </div>
+  </div>
+  <script>
+    // 获取所有的 <li> 元素
+    var liElements = document.querySelectorAll('p');
+
+    // 为每个 <li> 元素添加点击事件监听器
+    liElements.forEach(function (li, index) {
+      li.addEventListener('click', function () {
+        // 根据索引或其他条件进行页面跳转
+        switch (index) {
+          case 0:
+            window.location.href = 'http://xiao34.gitee.io/vue_shop';
+            break;
+          case 1:
+            window.location.href = 'http://xiao34.gitee.io/vue_app3';
+            break;
+          case 2:
+            window.location.href = 'http://xiao34.gitee.io/vue_app2';
+            break;
+          case 3:
+            window.location.href = 'https://xiaolp.ml';
+            break;
+          case 4:
+            window.location.href = 'http://xiao34.gitee.io/music_web';
+            break;
+          case 5:
+            window.location.href = 'http://xiao34.gitee.io/shoping';
+            break;
+          // ...
+          default:
+            break;
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
