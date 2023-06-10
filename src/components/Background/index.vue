@@ -3,58 +3,50 @@
     <img class="bg" :src="bgUrl" alt="cover" />
     <div :class="store.backgroundShow ? 'gray sm' : 'gray'" />
     <transition name="el-fade-in-linear">
-      <a
-        class="down"
-        :href="bgUrl"
-        target="_blank"
-        v-show="store.backgroundShow && store.coverType != '3'"
-        >下载壁纸</a
-      >
+      <a class="down" :href="bgUrl" target="_blank" v-show="store.backgroundShow && store.coverType != '3'">下载壁纸</a>
     </transition>
   </div>
 </template>
 
 <script setup>
-import { onMounted, ref, watch, h } from "vue";
-import { SuccessPicture } from "@icon-park/vue-next";
-import { mainStore } from "@/store";
-const store = mainStore();
+import { onMounted, ref, watch, h } from 'vue'
+import { SuccessPicture } from '@icon-park/vue-next'
+import { mainStore } from '@/store'
+const store = mainStore()
 
-let bgUrl = ref(null); // 壁纸链接
+let bgUrl = ref(null) // 壁纸链接
 
 const changeBg = (type) => {
   if (type == 0) {
-    bgUrl.value = `/images/background${Math.floor(
-      Math.random() * 10 + 1
-    )}.webp`;
+    bgUrl.value = `./images/background${Math.floor(Math.random() * 10 + 1)}.webp`
   } else if (type == 1) {
-    bgUrl.value = "https://api.dujin.org/bing/1920.php";
+    bgUrl.value = 'https://api.dujin.org/bing/1920.php'
   } else if (type == 2) {
-    bgUrl.value = "https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images";
+    bgUrl.value = 'https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images'
   } else if (type == 3) {
-    bgUrl.value = "https://www.dmoe.cc/random.php";
+    bgUrl.value = 'https://www.dmoe.cc/random.php'
   }
-};
+}
 
 onMounted(() => {
   // 加载壁纸
-  changeBg(store.coverType);
-});
+  changeBg(store.coverType)
+})
 
 // 监听壁纸种类变化
 watch(
   () => store.coverType,
   (value) => {
-    changeBg(value);
+    changeBg(value)
     ElMessage({
-      message: "壁纸设置成功",
+      message: '壁纸设置成功',
       icon: h(SuccessPicture, {
-        theme: "filled",
-        fill: "#efefef",
-      }),
-    });
+        theme: 'filled',
+        fill: '#efefef'
+      })
+    })
   }
-);
+)
 </script>
 
 <style lang="scss" scoped>
@@ -86,11 +78,7 @@ watch(
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(
-        rgba(0, 0, 0, 0) 0,
-        rgba(0, 0, 0, 0.5) 100%
-      ),
-      radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%);
+    background-image: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%);
 
     transition: 1.5s;
     &.sm {

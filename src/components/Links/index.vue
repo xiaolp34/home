@@ -50,7 +50,7 @@ let linksData = [
   {
     icon: Book,
     name: '项目集',
-    link: '/List.html'
+    link: './List.html'
   },
   {
     icon: Windows,
