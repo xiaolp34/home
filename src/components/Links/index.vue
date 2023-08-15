@@ -30,22 +30,22 @@ let linksData = [
   {
     icon: Home,
     name: '首页',
-    link: 'https://xiaolp.ml/'
+    link: 'https://xiaolp.gq/'
   },
   {
     icon: Cloud,
     name: '网盘',
-    link: 'http://n1op.ml:5244'
+    link: 'http://xiaolp.cf:5244'
   },
   {
     icon: CompactDisc,
     name: '音乐',
-    link: 'https://music.xiaolp.ml'
+    link: 'https://music.xiaolp.gq'
   },
   {
     icon: Comments,
     name: 'ChatGPT',
-    link: 'https://ai.xiaolp.ml'
+    link: 'https://ai.xiaolp.gq'
   },
   {
     icon: Book,
@@ -55,7 +55,7 @@ let linksData = [
   {
     icon: Windows,
     name: 'Win11',
-    link: 'https://win11.xiaolp.ml'
+    link: 'https://win11.xiaolp.gq'
   }
 ]
 
